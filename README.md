@@ -90,3 +90,52 @@ Internally link pages to improve rankings.
 Attract high-intent traffic searching for luxury car rentals.
 
 This system is reusable for any service-based business.
+
+## How to access and use the final deliverables
+
+### Files added for stakeholder presentation
+
+- `outputs/09-seo-strategy-flow-diagram.md` → strategy flow diagram (Mermaid format)
+- `outputs/10-monaco-seo-strategy-proposal.md` → editable 1-page proposal
+- `outputs/10-monaco-seo-strategy-proposal.pdf` → shareable PDF
+
+### Open/read from terminal
+
+```bash
+# Read editable proposal
+cat outputs/10-monaco-seo-strategy-proposal.md
+
+# Read flow diagram source
+cat outputs/09-seo-strategy-flow-diagram.md
+```
+
+### Open in VS Code / Cursor
+
+```bash
+code outputs/10-monaco-seo-strategy-proposal.md
+code outputs/09-seo-strategy-flow-diagram.md
+```
+
+### View Mermaid diagram visually
+
+If your editor supports Mermaid preview, open `outputs/09-seo-strategy-flow-diagram.md` and use Markdown preview.
+
+If not, copy the Mermaid code block into:
+- https://mermaid.live
+
+### Share the PDF
+
+Send this file directly to clients/stakeholders:
+- `outputs/10-monaco-seo-strategy-proposal.pdf`
+
+### Optional: regenerate PDF from markdown (if you have tools installed)
+
+Using Pandoc (recommended):
+
+```bash
+pandoc outputs/10-monaco-seo-strategy-proposal.md -o outputs/10-monaco-seo-strategy-proposal.pdf
+```
+
+Using VS Code Markdown PDF extension:
+- Open the markdown file
+- Run “Markdown PDF: Export (pdf)” from command palette
